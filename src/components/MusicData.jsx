@@ -1,140 +1,135 @@
 const TrendingMusic = [
   {
     index: 0,
-    imgsrc: "../imgs/bird.jpg",
-    textcenter: "Song ",
+    imgsrc: "../imgs/SoloBandit.jpg",
+    textcenter: "Solo ",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-1",
-    src: "./songs/Audio-1.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Solo- Bandit",
+    src: "./songs/Solo-bandit.mpeg",
     list_name: "TrendingMusic"
   },
   {
     index: 1,
-    imgsrc: "./imgs/lungs.png",
-    textcenter: "Song ",
+    imgsrc: "./imgs/LoveYourself.jpg",
+    textcenter: "Love Yourself ",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-2",
-    src: "./songs/Audio-2.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "LoveYourself-Justin ",
+    src: "./songs/LoveYourself.mpeg",
     list_name: "TrendingMusic"
   },
+
   {
     index: 2,
-    imgsrc: "../imgs/belgium.jpg",
-    textcenter: "Song ",
+    imgsrc: "../imgs/WESelena.jpg",
+    textcenter: "We Dont Talk ",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-3",
-    src: "./songs/Audio-3.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Anymore-Selena",
+    src: "./songs/wedonttalk.mpeg",
     list_name: "TrendingMusic"
   },
   {
     index: 3,
-    imgsrc: "./imgs/women.jpg",
-    textcenter: "Song",
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-4",
-    src: "./songs/Audio-4.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
     list_name: "TrendingMusic"
   },
-  {
-    index: 4,
-    imgsrc: "./imgs/women.jpg",
-    textcenter: "Song",
-    button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "No artist",
-    src: "./songs/Audio-4.mpeg",
-    list_name: "TrendingMusic"
-  },
+
+
 
 ];
 
 const AllTimeFav = [
   {
     index: 0,
-    imgsrc: "../imgs/bird.jpg",
-    textcenter: "Song",
+    imgsrc: "../imgs/KrishnaFlute.jpg",
+    textcenter: "Krishna Flute",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-5",
-    src: "./songs/Audio-5.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Krishna Flute",
+    src: "./songs/KrishnaFlute.mp4",
     list_name: "AllTimeFav"
   },
   {
     index: 1,
-    imgsrc: "./imgs/lungs.png",
-    textcenter: "Song",
+    imgsrc: "./imgs/Closer.jpg",
+    textcenter: "Closer",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-6",
-    src: "./songs/Audio-6.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Closer-ChainSmokers",
+    src: "./songs/closer.mpeg",
     list_name: "AllTimeFav"
   },
   {
     index: 2,
-    imgsrc: "../imgs/belgium.jpg",
-    textcenter: "Song",
+    imgsrc: "../imgs/StealMyGirl.jpg",
+    textcenter: "Steal My Girl",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-7",
-    src: "./songs/Audio-7.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "StealMyGirl- One Dir",
+    src: "./songs/Stealmygirl.mpeg",
     list_name: "AllTimeFav"
   },
   {
     index: 3,
-    imgsrc: "./imgs/women.jpg",
-    textcenter: "Song",
+    imgsrc: "./imgs/DuskTillDown.jpg",
+    textcenter: "Dusk Till Down",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-8",
-    src: "./songs/Audio-8.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "DuskTillDown- Aritst",
+    src: "./songs/dusktilldown.mpeg",
     list_name: "AllTimeFav"
   },
+
+
 ];
 
 
 const MyMusic = [
   {
     index: 0,
-    imgsrc: "../imgs/bird.jpg",
-    textcenter: "Song",
+    imgsrc: "../imgs/Starving.jpg",
+    textcenter: "Starving",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-9",
-    src: "./songs/Audio-9.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Starving - Hailee",
+    src: "./songs/Starving.mpeg",
     list_name: "MyMusic"
   },
   {
     index: 1,
-    imgsrc: "./imgs/lungs.png",
-    textcenter: "Song",
+    imgsrc: "./imgs/WithoutMe.jpg",
+    textcenter: "Without Me",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-10",
-    src: "./songs/Audio-10.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "WithoutMe- Halsey",
+    src: "./songs/withoutme.mpeg",
     list_name: "MyMusic"
   },
   {
     index: 2,
-    imgsrc: "../imgs/belgium.jpg",
-    textcenter: "Song",
+    imgsrc: "../imgs/CallYouMine.jpg",
+    textcenter: "Call You Mine",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-11",
-    src: "./songs/Audio-11.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Call You Mine-Chain",
+    src: "./songs/callyoumine.mpeg",
     list_name: "MyMusic"
   },
   {
     index: 3,
-    imgsrc: "./imgs/women.jpg",
-    textcenter: "Song",
+    imgsrc: "./imgs/seeyouagain.jpg",
+    textcenter: "See You Again",
     button: "Listen Now",
-    music_by: "spotify",
-    artist_name: "Audio-12",
-    src: "./songs/Audio-12.mpeg",
+    music_by: "Spotify Play",
+    artist_name: "Wiz - See You Again",
+    src: "./songs/SeeYouAgain.mpeg",
     list_name: "MyMusic"
   },
 ];

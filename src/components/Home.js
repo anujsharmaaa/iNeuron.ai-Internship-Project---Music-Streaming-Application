@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+// import { useLocation } from "react-router-dom";
 import TrendingMusic, { AllTimeFav, MyMusic } from "./MusicData";
 import MusicFile from "./MusicFile";
 import Navbar from "./Navbar";
 
 
 function Home() {
+  // const {state} = useLocation()
   const music_list = [TrendingMusic, AllTimeFav, MyMusic];
   const [data, setData] = useState(music_list)
+
   const sendList = (value) => {
     if (value === "alltimefav") {
       var all_list = [AllTimeFav]

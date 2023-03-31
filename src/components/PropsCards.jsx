@@ -11,14 +11,14 @@ const SecondSection = (props) => {
             <img
               src={props.data.imgsrc}
               alt="not found"
-              height={270}
-              width={270}
-              style={{ borderRadius: 150 }}
+              height={120}
+              width={120}
+              // style={{ borderRadius: 10 }}
             />
             <div className="info">
               <p className="text-center my-1">{props.data.textcenter}</p>
-              <p className="text-center my-1">{props.data.music_by} </p>
-              <p className="text-center my-1">{props.data.artist_name}</p>
+              <p className="text-center my-2">{props.data.music_by} </p>
+              <p className="text-center my-3">{props.data.artist_name}</p>
             </div>
           </div>
           <div className="button">
