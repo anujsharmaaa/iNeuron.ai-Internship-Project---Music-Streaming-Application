@@ -1,8 +1,8 @@
 ## PROJECT HEADING
 
-![](https://img.shields.io/badge/LIVE%20PROJECT%2011-WEBHOSTING%20WEB%20PAGE-blue)
+![](https://img.shields.io/badge/iNeuron.ai%20INTERNSHIP%20PROJECT%2011-Music%20Streaming%20Application-blue)
 
-![](https://img.shields.io/badge/TECH%20STACK-HTML%20%7C%20CSS-important)
+![](https://img.shields.io/badge/TECH%20STACK-HTML%20%7C%20CSS%20%7C%20JAVASCRIPT%20%7C%20REACTJS-important)
 
 ![](https://img.shields.io/badge/PROJECT%20OWNER-ANUJ%20SHARMA-blueviolet)
 
