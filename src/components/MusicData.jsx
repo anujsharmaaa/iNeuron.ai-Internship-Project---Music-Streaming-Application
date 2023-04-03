@@ -40,6 +40,86 @@ const TrendingMusic = [
     src: "./songs/TheCure.mpeg",
     list_name: "TrendingMusic"
   },
+  {
+    index: 4,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 5,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 6,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 7,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 8,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 9,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 10,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 11,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
 
 
 
@@ -88,6 +168,88 @@ const AllTimeFav = [
   },
 
 
+  {
+    index: 4,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 5,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 6,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 7,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 8,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 9,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 10,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 11,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+
+
 ];
 
 
@@ -132,6 +294,88 @@ const MyMusic = [
     src: "./songs/SeeYouAgain.mpeg",
     list_name: "MyMusic"
   },
+
+  {
+    index: 4,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 5,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 6,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 7,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 8,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 9,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 10,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+  {
+    index: 11,
+    imgsrc: "./imgs/Cure.jpg",
+    textcenter: "The Cure",
+    button: "Listen Now",
+    music_by: "Spotify Play",
+    artist_name: "Cure- Lady Gaga",
+    src: "./songs/TheCure.mpeg",
+    list_name: "TrendingMusic"
+  },
+
 ];
 
 

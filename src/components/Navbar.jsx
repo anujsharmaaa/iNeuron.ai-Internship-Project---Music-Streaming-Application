@@ -4,10 +4,6 @@ import { useNavigate } from "react-router-dom";
 const Navbar = ({sendList}) => {
   const navigate = useNavigate()
 
-  const sendState = (value) => {
-    navigate('/', {state: {value : value}})
-  }
-
   return (
     <div className="navbar">
       <div className="logo">
@@ -20,12 +16,12 @@ const Navbar = ({sendList}) => {
       </div>
       <div className="menu">
         <ul>
-            <li  onClick={() => {sendState("alltimefav")}} > All time fav </li> 
+            <li  onClick={() => {sendList("alltimefav")}} > All time fav </li> 
             <li onClick={() => {sendList("mymusic")}}> My Music Song </li>
           <li  onClick={() => {sendList("trending")}}> Trending Song </li>
           <li onClick={() =>
-                navigate("/playMusic/contactus")
-              }> Contact Us </li>
+                navigate("/playMusic/Aboutus")
+              }> About Us </li>
         </ul>
       </div>
       <div className="hambugger">

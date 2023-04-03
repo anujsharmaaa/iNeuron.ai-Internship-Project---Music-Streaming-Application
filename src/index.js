@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import PlayMusic from "./components/PlayMusic";
-import Contact from "./components/contact";
+import  Aboutus from "./components/Aboutus";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,7 +12,7 @@ ReactDOM.render(
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/playMusic" element={<PlayMusic />}></Route>
-        <Route path="/playMusic/contactus" element={<Contact />}></Route>
+        <Route path="/playMusic/Aboutus" element={<Aboutus />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
