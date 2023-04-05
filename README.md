@@ -42,9 +42,6 @@ song that is currently being played along with the remaining time and on-screen 
 play/pause the music.
 
 
-## Live Link
-https://project-11-ineuronai.netlify.app
-
 
 ## Features
 
