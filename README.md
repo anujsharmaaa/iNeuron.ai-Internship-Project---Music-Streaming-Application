@@ -16,6 +16,8 @@
 
 # iNeuron.ai Internship Project -  Music Streaming Application
 
+#LIVE LINK
+https://ineuron-internship-project.netlify.app/
 
 # Project Details 
 
