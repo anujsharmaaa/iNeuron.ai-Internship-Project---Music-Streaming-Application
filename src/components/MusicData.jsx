@@ -42,82 +42,82 @@ const TrendingMusic = [
   },
   {
     index: 4,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/Coldplay-Hymn.jpg",
+    textcenter: "Coldplay-Hymn",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Coldplay-Hymn",
+    src: "./songs/Coldplay-Hymn.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 5,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/sabrina-onmy.jpg",
+    textcenter: "Sabrina-OnMyWay",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Sabrina-OnMyWay",
+    src: "./songs/Sabrina-OnMyWay.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 6,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/Walker-Alone.jpg",
+    textcenter: "Walker-Alone",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Walker-Alone",
+    src: "./songs/Walker-Alone.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 7,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/rihana-wherehave.jpg",
+    textcenter: "Rihanna-WhereHave",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Rihanna-WhereHave",
+    src: "./songs/Rihanna-WhereHaveYou.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 8,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/Rihanna-Diamond.jpg",
+    textcenter: "Rihanna-Diamond",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Rihanna-Diamond",
+    src: "./songs/Rihanna-Diamond.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 9,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/hello-adele.jpg",
+    textcenter: "Adele-Hello",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Adele-Hello",
+    src: "./songs/Adele-Hello.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 10,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/selena-theheart.jpg",
+    textcenter: "SelenaGomez-Heart",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "SelenaGomez-Heart",
+    src: "./songs/SelenaGomez-TheHeart.mp3",
     list_name: "TrendingMusic"
   },
   {
     index: 11,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/Marshmello-Wolves.jpg",
+    textcenter: "Marshmello-Wolves",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
+    artist_name: "Marshmello-Wolves",
+    src: "./songs/Marshmello-Wolves.mp3",
     list_name: "TrendingMusic"
   },
 
@@ -149,20 +149,20 @@ const AllTimeFav = [
   {
     index: 2,
     imgsrc: "../imgs/StealMyGirl.jpg",
-    textcenter: "Steal My Girl",
+    textcenter: "StealMyGirl",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "StealMyGirl- One Dir",
+    artist_name: "StealMyGirl-One",
     src: "./songs/Stealmygirl.mpeg",
     list_name: "AllTimeFav"
   },
   {
     index: 3,
     imgsrc: "./imgs/DuskTillDown.jpg",
-    textcenter: "Dusk Till Down",
+    textcenter: "DuskTillDown",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "DuskTillDown- Aritst",
+    artist_name: "DuskTill-Aritst",
     src: "./songs/dusktilldown.mpeg",
     list_name: "AllTimeFav"
   },
@@ -170,83 +170,83 @@ const AllTimeFav = [
 
   {
     index: 4,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/Selena-babycalm.jpg",
+    textcenter: "BabyCalmDown",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Selena-Calm",
+    src: "./songs/Selena-BabyCalmDown.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 5,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/ellie-loveme.jpg",
+    textcenter: "Ellie-Love",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Goulding-Love",
+    src: "./songs/EllieGoulding-Love.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 6,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/lovemelike.jpg",
+    textcenter: "LoveMeLike",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "EllieGoulding",
+    src: "./songs/EllieGoulding-LoveMeLike.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 7,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/edsheeran-perfect.jpg",
+    textcenter: "Ed-Perfect",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Sheeran-Perfect",
+    src: "./songs/EdSheeran-Perfect.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 8,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/edsheeran-shapeofyou.jpg",
+    textcenter: "ShapeofYou",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "EdSheeran-You",
+    src: "./songs/EdSheeran-ShapeofYou.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 9,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/despacito.jpg",
+    textcenter: "Despacito",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Luis-Despacito",
+    src: "./songs/LuisFonsi-Despacito.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 10,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/brunal-lazysong.jpg",
+    textcenter: "TheLazySong",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Br-LazySong",
+    src: "./songs/BrunoMars-TheLazySong.mp3",
+    list_name: "AllTimeFav"
   },
   {
     index: 11,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/marronanimals.jpg",
+    textcenter: "Animals",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Maroon5 -Ani",
+    src: "./songs/Maroon5 -Animals.mp3",
+    list_name: "AllTimeFav"
   },
 
 
@@ -297,87 +297,86 @@ const MyMusic = [
 
   {
     index: 4,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/AvaMax-Alone.jpg",
+    textcenter: "AvaMax-Alone",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "AvaMax-Alone",
+    src: "./songs/AvaMax-Alone.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 5,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/imagine-bones.jpg",
+    textcenter: "Imagine-Bones",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Imagine-Bones",
+    src: "./songs/ImagineDragons-Bones.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 6,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/one-whatmakes.jpg",
+    textcenter: "One-WhatMakesYou",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "One-WhatMakesYou",
+    src: "./songs/OneDirection-WhatMakesYou.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 7,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/glassanimals-heart.jpg",
+    textcenter: "Glass-Heat",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Animals-Waves",
+    src: "./songs/GlassAnimals-HeatWaves.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 8,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/zayn-dusk.jpg",
+    textcenter: "DuskTillDawn",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "ZAYN-Dusk",
+    src: "./songs/ZAYN-DuskTillDawn.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 9,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/one-nightchange.jpg",
+    textcenter: "NightChanges",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "OneDirection",
+    src: "./songs/OneDirection-NightChanges.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 10,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/taylor-blankSpace.jpg",
+    textcenter: "BlankSpace",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Taylor-BlankSpace",
+    src: "./songs/TaylorSwift - BlankSpace.mp3",
+    list_name: "MyMusic"
   },
   {
     index: 11,
-    imgsrc: "./imgs/Cure.jpg",
-    textcenter: "The Cure",
+    imgsrc: "./imgs/miley-flowers.jpg",
+    textcenter: "Mil-Flowers",
     button: "Listen Now",
     music_by: "Spotify Play",
-    artist_name: "Cure- Lady Gaga",
-    src: "./songs/TheCure.mpeg",
-    list_name: "TrendingMusic"
+    artist_name: "Cyrus-Flowers",
+    src: "./songs/MileyCyrus-Flowers.mp3",
+    list_name: "MyMusic"
   },
 
 ];
 
 
-export default TrendingMusic;
-export {AllTimeFav, MyMusic};
+export {AllTimeFav, MyMusic, TrendingMusic};

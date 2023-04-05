@@ -1,122 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
-  background: linear-gradient( 110deg, #fff1f1 , hsl(0deg 0% 0%) );
+body {
+  background: linear-gradient(110deg, #fff1f1, hsl(0deg 0% 0%));
   height: auto;
-  width:  auto;
+  width: auto;
 }
 
- .logo h1{
+.logo h1 {
   color: rgb(255, 0, 157);
   cursor: cursor;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
-
-.m{
+.m {
   color: aquamarine;
 }
 
-
-.p{
+.p {
   color: rgb(255, 17, 17);
 }
 
-
-
-.navbar{
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding :  20px 30px 20px 9px ;
+  padding: 20px 30px 20px 9px;
   list-style: none;
   margin: 0 27px;
   font-size: 15px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
 
-.navbar:hover{
+.navbar:hover {
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
 }
 
-.navbar ul li{
-  padding: 0px 35px ;
+.navbar ul li {
+  padding: 0px 35px;
   list-style-type: none;
-  display: inline;
   font-weight: lighter;
   font-size: 15px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
   color: aliceblue;
 }
 
-.navbar ul li:hover{
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar ul li:hover {
   font-weight: 700;
   font-size: 25px;
   color: rgb(110, 15, 148);
 }
 
+.hamburgger {
+  display: none;
+}
 
-
-
-.card-title h1{
-  font-family: 'Shadows Into Light', cursive;
+.card-title h1 {
+  font-family: "Shadows Into Light", cursive;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.781);
 }
-.card-title h1:hover{
-  font-family: 'Shadows Into Light', cursive;
+.card-title h1:hover {
+  font-family: "Shadows Into Light", cursive;
   cursor: pointer;
   color: rgb(255, 255, 255);
 }
 
 /*  SecondSec */
 
-.card-title{
-  background: linear-gradient( 110deg, #3919c9  , hsl(86, 90%, 44%) );
+.card-title {
+  background: linear-gradient(110deg, #3919c9, hsl(86, 90%, 44%));
   color: #33b3d3, rgb(171, 32, 199);
-padding-left: 40px;
-margin-top: 40px;
+  padding-left: 40px;
+  margin-top: 40px;
 }
 
-.cards{
+.cards {
   padding: 43px 26px;
 }
 
- .card{
-     display: inline-flex;
-     justify-content: center;
-     flex-direction: column;
-   }
+.card {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-
-.info .text-center{
+.info .text-center {
   margin: 7px 0;
   text-align: center;
 }
 
 p.my-1.text-center {
   color: red;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
-
-
-
-
-
-
-.btn{
+.btn {
   font-size: 11px;
   padding: 12px 17px;
   border-radius: 10px;
@@ -128,36 +122,32 @@ p.my-1.text-center {
   margin-top: 2px;
 }
 
-
-.btn:hover{
+.btn:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 0, 170);
   outline: 0;
 }
 
-.btn{
+.btn {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   color: rgb(255, 0, 0);
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
-.btn:hover{
-box-shadow: 0 0 6px 6px ;
+.btn:hover {
+  box-shadow: 0 0 6px 6px;
 }
 
-
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-
-
 /* PlayMusic Css  */
 
-.container{
-  border: 5px solid  rgb(231, 8, 8);
+.container {
+  border: 5px solid rgb(231, 8, 8);
   border-radius: 38px;
   height: 500px;
   width: 400px;
@@ -167,84 +157,78 @@ box-shadow: 0 0 6px 6px ;
   margin: 0 auto;
 }
 
+.music-img img {
+  margin-top: 40px;
+  border: 2px solid rgb(255, 0, 0);
+  display: block;
+  border-radius: 50%;
+}
 
-.music-img img{
-margin-top: 40px;
-border : 2px solid rgb(255, 0, 0);
-display: block;
-border-radius: 990px;
-} 
-
-
-.music-by h1{
+.music-by h1 {
   margin-top: 35px;
   font-size: 20px;
   margin-left: 114px;
 }
 
-.duration{
+.duration {
   display: flex;
   gap: 10px;
-
 }
 
-.content{
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  gap:  19px;
-
+  gap: 19px;
 }
 
-.content h1{
+.content h1 {
   color: red;
-  margin-top:  15px;
+  margin-top: 15px;
 }
 
-
-.playerBar{
+.playerBar {
   display: flex;
   justify-content: space-evenly;
   width: 400px;
 }
 
-.currTime, .durTime{
-  font-family: 'Orbitron', sans-serif;
+.currTime,
+.durTime {
+  font-family: "Orbitron", sans-serif;
   font-size: 16px;
   color: blanchedalmond;
-  }
-
-
- .progressBar{
-    --seek-before-width: 0;
-    --seek-before-color: rgb(207, 228, 19);
-    --knobby: rgb(0, 0, 0);
-    --selectedKnobby: rgb(238, 67, 238);
-     appearance:  none;
-     background-color: blueviolet;
-     border-radius: 10px;
-     width: 250px;
-     height: 11px;
-     outline: none;
 }
 
-
-.progressBar::before{
-    content : '';
-    height: 11px ;
-    width: var(--seek-before-width);
-    background-color:  red;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius:  10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    cursor: pointer;
+.progressBar {
+  --seek-before-width: 0;
+  --seek-before-color: rgb(207, 228, 19);
+  --knobby: rgb(0, 0, 0);
+  --selectedKnobby: rgb(238, 67, 238);
+  appearance: none;
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 250px;
+  height: 11px;
+  outline: none;
 }
 
-.audioPlayer button{
+.progressBar::before {
+  content: "";
+  height: 11px;
+  width: var(--seek-before-width);
+  background-color: red;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.audioPlayer button {
   margin-top: 40px;
   width: 100px;
   outline: none;
@@ -254,13 +238,12 @@ border-radius: 990px;
   color: blueviolet;
 }
 
-
 .cards {
   border: 4px solid rgb(255, 255, 255);
-margin: 68px auto;
-border-radius: 21px;
-height: 246px;
-background-color: #101010;
+  margin: 68px auto;
+  border-radius: 21px;
+  height: 246px;
+  background-color: #101010;
 }
 
 .card-img img {
@@ -271,17 +254,15 @@ background-color: #101010;
   margin: 9px auto;
 }
 
-
 .text-center.my-2 {
   color: chartreuse;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
 .text-center.my-3 {
   color: #ff002d;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
-
 
 #anujproject {
   background-color: #000;
@@ -293,39 +274,38 @@ a {
 
 /* * contact us   */
 
-.about{
-  width: 100%;
-  padding: 78px 0px;
+.about {
+  width: 100vw;
+  height: 100vh;
+  /* padding: 78px 0px; */
   background-color: #191919;
-
 }
 
-.about img{
+.about img {
   height: 500px;
-width: 520px;
-margin-right: 98px;
+  width: 520px;
+  margin-right: 98px;
 }
 
-.about-text{
+.about-text {
   width: 550px;
 }
 
-.main{
-  width: 1120px;
-  max-width: 95%;
+.main {
+  width: 100%;
+  /* max-width: 100%; */
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.about-text h1{
+.about-text h1 {
   color: white;
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-
 
 .about-text h5 {
   color: #f90049;
@@ -335,8 +315,7 @@ margin-right: 98px;
   letter-spacing: 2px;
 }
 
-
-.about-text p{
+.about-text p {
   color: #fcfc;
   letter-spacing: 1px;
   line-height: 28px;
@@ -344,7 +323,7 @@ margin-right: 98px;
   margin-bottom: 30px;
 }
 
-.about button{
+.about button {
   background: #f90049;
   color: white;
   text-decoration: none;
@@ -352,39 +331,77 @@ margin-right: 98px;
   font-weight: bold;
   padding: 13px 30px;
   border-radius: 30px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-.about button:hover{
+.about button:hover {
   background: transparent;
   border: 2px solid #f90049;
   cursor: pointer;
 }
 
-
-
 /*  Responsive Part  */
 
 /* header  */
 
-@media(max-width: 998px) {
-  html {
-    font-size: 55%;
+@media only screen and (max-width: 1016px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .about img {
+    width: 300px;
   }
 }
 
-@media (max-width:768px) {
-  html {
-    font-size: 45%;
+@media only screen and (max-width: 796px) {
+  .navbar ul li {
+    padding: 0 15px;
+  }
+  .about img {
+    width: 100%;
+  }
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 637px) {
+  .navbar ul li {
+    display: none;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .container {
+    width: 200px;
+    height: 400px;
+  }
+  .playerBar {
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .currTime,
+  .durTime {
+    font-size: 10px;
+  }
+  .progressBar {
+    width: 100px;
+  }
+  .audioPlayer button {
+    width: 30px;
+  }
+  .audioButtons {
+    width: 20px;
+  }
+  .content h1 {
+    font-size: 15px;
+  }
+  .music-img img {
+    width: 150px;
+    height: 150px;
+  }
+  /* .audioPlayer button{
+    width: 20px;
+  } */
+}

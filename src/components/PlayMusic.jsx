@@ -1,18 +1,12 @@
-import Navbar from "./Navbar";
+import React, { useEffect, useRef, useState } from "react";
+import { BsFillPlayCircleFill, BsPauseCircleFill } from "react-icons/bs";
 import {
   BsSkipBackwardCircleFill,
   BsFillFastForwardCircleFill,
 } from "react-icons/bs";
-import TrendingMusic, { AllTimeFav, MyMusic } from "./MusicData";
-import { BsFillPlayCircleFill, BsPauseCircleFill } from "react-icons/bs";
-import React, { useState, useRef, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
-function PlayMusic() {
-  // Location
-  const { state } = useLocation();
+function PlayMusic({ data, cb }) {
   // useState
-  const [song, setSong] = useState(state);
   const [play, setPlay] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -67,53 +61,14 @@ function PlayMusic() {
     );
     setCurrentTime(progressBar.current.value);
   };
-
-  const controls = (type, value) => {
-    setPlay(false)
-    audioPlayer.current.pause();
-    const playList =
-      song.listName === "TrendingMusic"
-        ? TrendingMusic
-        : song.listName === "AllTimeFav"
-        ? AllTimeFav
-        : MyMusic;
-    
-    if (type === "forward") {
-      let key = value.index+1;
-      if (playList[key] === undefined) return
-      let updatedData = {
-        artist_name: playList[key].artist_name,
-        imgsrc: playList[key].imgsrc,
-        index: key,
-        listName: playList[key].list_name,
-        path: playList[key].src,
-      };
-      setSong(updatedData)
-      audioPlayer.current.play();
-    }
-
-    if (type === "backward") {
-      let key = value.index-1;
-      if (playList[key] === undefined) return
-      let updatedData = {
-        artist_name: playList[key].artist_name,
-        imgsrc: playList[key].imgsrc,
-        index: key,
-        listName: playList[key].list_name,
-        path: playList[key].src,
-      };
-      setSong(updatedData)
-    }
-  };
   return (
     <>
-      <Navbar />
       <div className="container">
         <div className="music-img">
-          <img src={song.imgsrc} height={200} width={200} alt="NotFound" />
+          <img src={data.imgsrc} height={200} width={200} alt="NotFound" />
         </div>
         <div className="content">
-          <h1> {song.artist_name} </h1>
+          <h1> {data.artist_name} </h1>
 
           <div className="playerBar">
             <div className="currTime">{calculateTime(currentTime)}</div>
@@ -134,17 +89,17 @@ function PlayMusic() {
           </div>
 
           <div className="audioPlayer">
-            <audio id="audioPart" ref={audioPlayer} src={song.path}></audio>
-            <button onClick={() => controls("backward", song)}>
-              <BsSkipBackwardCircleFill />
+            <audio id="audioPart" ref={audioPlayer} src={data.src}></audio>
+            <button>
+              <BsSkipBackwardCircleFill onClick={() => cb("backward", data.index)} />
             </button>
 
             <button onClick={togglePlayPause}>
               {play ? <BsPauseCircleFill /> : <BsFillPlayCircleFill />}
             </button>
 
-            <button onClick={() => controls("forward", song)}>
-              <BsFillFastForwardCircleFill />
+            <button>
+              <BsFillFastForwardCircleFill onClick={() => cb("forward", data.index)} />
             </button>
           </div>
         </div>
